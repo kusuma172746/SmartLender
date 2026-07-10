@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Lender</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#0F172A,#1E3A8A,#2563EB);
+height:100vh;
+overflow:hidden;
+
+}
+
+nav{
+
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:absolute;
+top:0;
+
+}
+
+.logo{
+
+font-size:32px;
+font-weight:bold;
+color:white;
+
+}
+
+.logo span{
+
+color:#38BDF8;
+
+}
+
+nav ul{
+
+display:flex;
+list-style:none;
+
+}
+
+nav ul li{
+
+margin-left:35px;
+
+}
+
+nav ul li a{
+
+text-decoration:none;
+color:white;
+font-size:17px;
+transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+color:#38BDF8;
+
+}
+
+.hero{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:120px 8%;
+
+}
+
+.left{
+
+width:55%;
+color:white;
+
+}
+
+.left h1{
+
+font-size:58px;
+line-height:75px;
+margin-bottom:20px;
+
+}
+
+.left span{
+
+color:#38BDF8;
+
+}
+
+.left p{
+
+font-size:20px;
+line-height:34px;
+margin-bottom:35px;
+color:#E2E8F0;
+
+}
+
+.btn{
+
+padding:16px 38px;
+background:#38BDF8;
+border:none;
+border-radius:50px;
+font-size:19px;
+font-weight:bold;
+cursor:pointer;
+color:white;
+transition:.3s;
+text-decoration:none;
+
+}
+
+.btn:hover{
+
+background:white;
+color:#2563EB;
+transform:translateY(-4px);
+
+}
+
+.right{
+
+width:40%;
+display:flex;
+justify-content:center;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(15px);
+padding:35px;
+border-radius:25px;
+text-align:center;
+width:350px;
+box-shadow:0 20px 40px rgba(0,0,0,.3);
+
+}
+
+.card h2{
+
+color:white;
+margin-bottom:20px;
+
+}
+
+.stats{
+
+display:flex;
+justify-content:space-between;
+margin-top:30px;
+
+}
+
+.box{
+
+background:white;
+padding:20px;
+border-radius:15px;
+width:95px;
+
+}
+
+.box h3{
+
+color:#2563EB;
+font-size:28px;
+
+}
+
+.box p{
+
+font-size:14px;
+margin-top:5px;
+
+}
+
+.footer{
+
+position:absolute;
+bottom:20px;
+left:50%;
+transform:translateX(-50%);
+color:white;
+font-size:15px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+🏦 Smart<span>Lender</span>
+
+</div>
+
+<ul>
+
+<li><a href="/">Home</a></li>
+
+<li><a href="/predict">Predict</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>
+
+AI Powered <span>Loan Approval</span>
+
+Prediction System
+
+</h1>
+
+<p>
+
+Predict your loan approval instantly using Machine Learning.
+Fast, secure and reliable decision support system for applicants.
+
+</p>
+
+<a href="/predict" class="btn">
+
+Start Prediction →
+
+</a>
+
+</div>
+
+<div class="right">
+
+<div class="card">
+
+<h2>Project Highlights</h2>
+
+<div class="stats">
+
+<div class="box">
+
+<h3>95%</h3>
+
+<p>Accuracy</p>
+
+</div>
+
+<div class="box">
+
+<h3>AI</h3>
+
+<p>Prediction</p>
+
+</div>
+
+<div class="box">
+
+<h3>24/7</h3>
+
+<p>Available</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="footer">
+
+Developed using ❤️ Flask • Python • Machine Learning
+
+</div>
+
+</body>
+</html>

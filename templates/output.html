@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prediction Result</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:linear-gradient(135deg,#0f172a,#1e40af,#38bdf8);
+
+}
+
+.card{
+
+width:600px;
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(18px);
+padding:45px;
+border-radius:25px;
+text-align:center;
+box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+}
+
+.icon{
+
+font-size:75px;
+margin-bottom:20px;
+
+}
+
+h1{
+
+color:white;
+margin-bottom:15px;
+font-size:40px;
+
+}
+
+.result{
+
+font-size:32px;
+font-weight:bold;
+padding:20px;
+border-radius:12px;
+margin:30px 0;
+background:white;
+color:#2563EB;
+
+}
+
+.info{
+
+color:#f8fafc;
+font-size:18px;
+line-height:30px;
+margin-bottom:30px;
+
+}
+
+.btn{
+
+display:inline-block;
+padding:15px 35px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+border-radius:10px;
+transition:.3s;
+
+}
+
+.btn:hover{
+
+background:white;
+color:#2563EB;
+transform:translateY(-4px);
+
+}
+
+.footer{
+
+margin-top:35px;
+color:#dbeafe;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="icon">
+
+🏦
+
+</div>
+
+<h1>Prediction Result</h1>
+
+<div class="result">
+
+{{ prediction }}
+
+</div>
+
+<div class="info">
+
+Thank you for using the Smart Lender Loan Prediction System.
+
+</div>
+
+<a href="/predict" class="btn">
+
+Predict Another Loan
+
+</a>
+
+<br><br>
+
+<a href="/" class="btn">
+
+Home
+
+</a>
+
+<div class="footer">
+
+Powered by Flask • Python • Machine Learning
+
+</div>
+
+</div>
+
+</body>
+
+</html>
