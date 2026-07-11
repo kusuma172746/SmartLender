@@ -43,10 +43,10 @@ The system predicts whether a loan will be:
 
 ## 👩‍💻 Developed By -
 
-Kusuma Velagala
-Sahithi Merla(Team Leader)
-Hindu Boddu
-Yarragunta Pranay Krupa Sandeep
+Kusuma Velagala,
+Sahithi Merla(Team Leader),
+Hindu Boddu,
+Yarragunta Pranay Krupa Sandeep,
 somana Uday Shankar
 
 B.Tech Artificial Intelligence & Machine Learning
