@@ -38,12 +38,16 @@ SmartLender/
 ## 🎯 Project Output
 The system predicts whether a loan will be:
 
-- ✅ Loan Approved
-- ❌ Loan Rejected
+✅ Loan Approved
+❌ Loan Rejected
 
-## 👩‍💻 Developed By
+## 👩‍💻 Developed By -
 
 Kusuma Velagala
+Sahithi Merla(Team Leader)
+Hindu Boddu
+Yarragunta Pranay Krupa Sandeep
+somana Uday Shankar
 
 B.Tech Artificial Intelligence & Machine Learning
 
